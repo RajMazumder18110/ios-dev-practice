@@ -11,16 +11,16 @@ let tupleWithoutType = (
     firstName: "Raj",
     lastName: "Mazumder",
     age: 20
-);
+)
 
 let tupleWithType = (
     red: 20,
     green: 67,
     blue: 33
-);
+)
 
-let array = [1, 2, 3, 4, 5]; // Array without type
-var array2: [Int8] = [Int8](); // Array with type and empty array
+let array = [1, 2, 3, 4, 5] // Array without type
+var array2: [Int8] = [Int8]() // Array with type and empty array
 array2.append(22)
 
 let dict: [String: Any] = [
@@ -49,11 +49,11 @@ enum Gears {
 
 set1.update(with: 43)
 
-print(dict2["red", default: 0]);
+print(dict2["red", default: 0])
 print(array.count);
 
 // Creating empty dict
-var cars: [String: Gears] = [String: Gears]();
+var cars: [String: Gears] = [String: Gears]()
 // adding values
-cars["ABC"] = Gears.Automatic;
-cars["DEF"] = Gears.Mannual;
+cars["ABC"] = Gears.Automatic
+cars["DEF"] = Gears.Mannual
